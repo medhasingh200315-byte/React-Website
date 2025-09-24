@@ -1,0 +1,54 @@
+[
+    {
+        "name":"DURGA",
+        "id":"hl",
+        "img_url":"https://i.ytimg.com/vi/rIzcVPkNES4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAtToJT8e1gJmPSX3eIcl_9hdjFCA",
+        "rating":"9.8",
+        "description":"Hello",
+        "cast":["gogo","kiki"],
+        "genre":["horror","voilent"],
+        "watch_url":"https://www.viki.com/tv/40466c-hills"
+    },
+       {
+        "name":"GANGA",
+        "id":"ft",
+        "img_url":"https://i.ytimg.com/vi/BP4lOKoHO7Q/maxresdefault.jpg",
+        "rating":"9.8",
+        "description":"Hello",
+        "cast":["gogo","kiki"],
+        "genre":["horror","voilent"],
+        "watch_url":"https://www.viki.com/tv/40466c-hills"
+    },
+       {
+        "name":"IT",
+        "id":"hm",
+        "img_url":"https://musicart.xboxlive.com/7/186c5100-0000-0000-0000-000000000002/504/image.jpg",
+        "rating":"2.8",
+        "description":"Hello",
+        "cast":["gogo","kiki"],
+        "genre":["horror","voilent"],
+        "watch_url":"https://www.viki.com/tv/40466c-hills"
+    },
+
+       {
+        "name":"CONJURING",
+        "id":"t",
+        "img_url":"data:image/jpeg;base64,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",
+        "rating":"3.8",
+        "description":"Hello",
+        "cast":["gogo","kiki"],
+        "genre":["horror","voilent"],
+        "watch_url":"https://www.viki.com/tv/40466c-hills"
+    },
+       {
+        "name":"ANABELLE",
+        "id":"sc",
+        "img_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4hWyRCBRW9Be8C62uO4SoMoCrLH7XMDY2rg&s",
+        "rating":"9.8",
+        "description":"Hello",
+        "cast":["gogo","kiki"],
+        "genre":["horror","voilent"],
+        "watch_url":"https://www.viki.com/tv/40466c-hills"
+    }
+
+]

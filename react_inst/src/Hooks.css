@@ -1,0 +1,12 @@
+.grid-three-cols
+{
+      grid-template-columns:repeat(3,1fr) ;
+}
+
+.disp
+{
+    height: 400px;
+    width: 600px;
+    background-color: aquamarine;
+    color: black;
+}
