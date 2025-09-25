@@ -8,33 +8,33 @@ import{ getLocalStorageTodoData, setLocalStorageTodoData}from"./TodoLocalStorage
 export const Todo=()=>{
     
     const[task,setTask]=useState(()=>getLocalStorageTodoData());
-//if the input value already existed in list, then dont take it.....................
+
     const handleFormSubmit=(inputValue)=>{
         const{id,content,checked}=inputValue;
         if(!content) return;
-//................................................
+
         const ifTodoContentMatched=task.find(
             (curTask)=>curTask.content===content);
             if(ifTodoContentMatched)return;
         setTask((prevTask)=>[...prevTask,{id,content,checked}]);
     };
 
-    //todo add data to localstorage.................
+
     setLocalStorageTodoData(task);
 
 
-    //todo delete function....................................
+
     const handleDeleteTodo=(value)=>{
         const updatedTask=task.filter((curTask)=>curTask.content!== value);
         setTask(updatedTask);
     }
-    //todo handlecleartododata...............................
+    
 
      const handleClearTodoData=()=>{
         setTask([])
      }
     
-    //todo handlechecktodo function.............................
+   
     const handleCheckedTodo=(content)=>{
         const updatedTask=task.map((curTask)=>{
             if(curTask.content===content) {
