@@ -8,7 +8,6 @@ import ProductDetails from './ProductDetails';
 import Checkout from './Checkout';
 import Footer from './Footer';
 
-// Sample product data
 const initialProducts = [
   { id: 1, name: 'Laptop', price: 7000, description: 'A high-performance laptop for work and gaming.', image: 'https://cdn.mos.cms.futurecdn.net/FUi2wwNdyFSwShZZ7LaqWf.jpg' },
   { id: 2, name: 'Smartphone', price: 17000, description: 'Latest smartphone with advanced features.', image: 'https://rukminim2.flixcart.com/image/480/640/xif0q/mobile/f/n/u/-original-imagx9egm9mgmvab.jpeg?q=90' },
