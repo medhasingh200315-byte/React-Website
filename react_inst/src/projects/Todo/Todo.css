@@ -55,7 +55,6 @@ form input {
   letter-spacing: 0.1rem;
   border: none;
   outline: none;
-  /* border-radius: 15; */
   border-top-left-radius: 17px;
   border-bottom-left-radius: 17px;
   max-width: 500px;
@@ -110,16 +109,11 @@ span {
 
 .todo-list {
   min-width: 25%;
-
-  /* To remove the bullets of unordered list */
   list-style: none;
 }
 
 .todo-item {
   margin: 2.4rem;
-  /*word-wrap: break-word;
-    */ /*flex-wrap: wrap;
-    */
   font-size: 20px;
   color: #1c2833;
   border-radius: 30px;
